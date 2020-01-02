@@ -19,15 +19,24 @@ const AppNavigator = createStackNavigator({
   },
   About: {
     screen: AboutScreen
-  }
-});
+  },
+
+
+
+},
+
+  {
+    headerStyle: { backgroundColor: '#1A87C5' },
+  },
+
+);
 
 const AppContainer = createAppContainer(AppNavigator);
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#1A87C5',
     alignItems: 'center',
     justifyContent: 'center',
   },
