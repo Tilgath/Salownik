@@ -1,6 +1,6 @@
 import React from 'react';
 import HomeScreen from './HomeScreen';
-import AboutScreen from './ProfileScreen';
+import SearchScreen from './SearchScreen';
 import {
   AppLoading
 } from 'expo';

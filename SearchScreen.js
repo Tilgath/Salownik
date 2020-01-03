@@ -8,7 +8,7 @@ export default function AboutScreen() {
 
     return (
         <View style={{ flex: 1, alignItems: 'center', backgroundColor: '#1A87C5', justifyContent: 'center' }}>
-            <Text>About Screen</Text>
+            <Text>Search Screen</Text>
         </View>
     )
 
