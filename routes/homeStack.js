@@ -19,7 +19,7 @@ import {
 const AppNavigator = createStackNavigator({
     Home: {
         screen: HomeScreen,
-        navigationOptions: {
+        navigationOptions: ({ navigation }) => ({
             headerStyle: {
                 backgroundColor: '#1A87C5'
             },
@@ -32,11 +32,11 @@ const AppNavigator = createStackNavigator({
             },
             headerLeft: (<View></View>),
             headerRight: () => (
-                <TouchableOpacity marginRight onPress={() => navigation.navigate('Search')}>
+                <TouchableOpacity marginRight onPress={() => { navigation.navigate('Search') }}>
                     <Text style={{ marginRight: 15, color: 'white', fontSize: 15 }}> SEARCH </Text>
                 </TouchableOpacity>
             ),
-        }
+        })
 
     },
     Search: {
