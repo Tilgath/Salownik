@@ -36,8 +36,8 @@ const AppNavigator = createStackNavigator({
                     <Text style={{ marginRight: 15, color: 'white', fontSize: 15 }}> SEARCH </Text>
                 </TouchableOpacity>
             ),
-        })
-
+        }
+        )
     },
     Search: {
         screen: SearchScreen
